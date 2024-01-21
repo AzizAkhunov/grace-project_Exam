@@ -2,12 +2,11 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  selector: 'app-str-stati',
+  templateUrl: './str-stati.component.html',
+  styleUrl: './str-stati.component.scss'
 })
-export class HomeComponent {
-
+export class StrStatiComponent {
   constructor(private router: Router) {
 
   }

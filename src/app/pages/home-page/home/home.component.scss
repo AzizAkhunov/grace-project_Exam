@@ -411,6 +411,7 @@ body {
   border-radius: 5rem;
   text-decoration: none;
   transition: 1s;
+  cursor: pointer;
 }
 
 
@@ -485,6 +486,7 @@ body {
   flex-shrink: 0;
   text-decoration: none;
   transition: 1s;
+  cursor: pointer;
 }
 
 .item--EJw .auto-group-ozuu-uAB .frame-512-Awu .frame-511-nCb .frame-232-MB9 .frame-13-ipK:hover{
@@ -558,6 +560,7 @@ body {
   flex-shrink: 0;
   text-decoration: none;
   transition: 1s;
+  cursor: pointer;
 }
 
 .item--EJw .auto-group-ozuu-uAB .frame-512-Awu .frame-511-nCb .frame-233-rp3 .frame-13-GWP:hover{
@@ -1719,7 +1722,6 @@ body {
 }
 .item--EJw .auto-group-ozuu-uAB .group-15-X1M .frame-31-L7D .frame-29-fQP .frame-213-1sZ {
   width: 10rem;
-  height: 10rem;
   object-fit: contain;
   vertical-align: top;
   border-radius: 3.2rem;
@@ -1992,6 +1994,7 @@ body {
   text-decoration: none;
   transition: 1s;
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .item--EJw .auto-group-ozuu-uAB .frame-229-jkw .frame-44-t3V .group-14-PF9 .auto-group-q28t-eio .frame-7-qHV:hover{
@@ -2253,3 +2256,21 @@ body {
   flex-shrink: 0;
 }
 
+.faq .accordion-item{
+  margin-top: 20px;
+}
+
+
+.offcanvas-body a{
+  font-size: 30px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.frame-507-Vgo a{
+  cursor: pointer;
+}
+
+.frame-506-1dD a{
+  cursor: pointer;
+}

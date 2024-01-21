@@ -1057,7 +1057,8 @@ body {
   height: 100%;
   overflow: hidden;
   position: relative;
-  background-color: #f2f2f2;
+  border-color: grey;
+  border-style:solid;
   border-radius: 0.4rem;
   flex-shrink: 0;
 }
@@ -1123,7 +1124,7 @@ body {
 .item--uTq .frame-245-V4P {
   box-sizing: border-box;
   padding: 3.3rem 26rem 3.2rem 27.8rem;
-  width: 100%;
+  width: 99%;
   height: 32.1rem;
   background: linear-gradient(90deg, #040f16 0%, rgba(4, 15, 22, 0.9200000167) 100%);
   border-radius: 3.2rem 3.2rem 0 0;
@@ -1179,6 +1180,7 @@ body {
   font-family: NT Somic, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
+  text-decoration: none;
 }
 .item--uTq .frame-245-V4P .frame-504-oqm .frame-509-xyZ .frame-192-uto .frame-505-Fxf .frame-506-W7u .item--mJj {
   font-size: 1.6rem;
@@ -1188,6 +1190,7 @@ body {
   font-family: NT Somic, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
+  text-decoration: none;
 }
 .item--uTq .frame-245-V4P .frame-504-oqm .frame-509-xyZ .frame-192-uto .frame-505-Fxf .frame-506-W7u .item--ssZ {
   font-size: 1.6rem;
@@ -1197,6 +1200,7 @@ body {
   font-family: NT Somic, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
+  text-decoration: none;
 }
 .item--uTq .frame-245-V4P .frame-504-oqm .frame-509-xyZ .frame-192-uto .frame-507-zBV {
   height: 100%;
@@ -1229,6 +1233,7 @@ body {
   font-family: NT Somic, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
+  text-decoration: none;
 }
 .item--uTq .frame-245-V4P .frame-504-oqm .frame-509-xyZ .frame-192-uto .frame-507-zBV .frame-508-2dy .item--79d {
   font-size: 1.6rem;
@@ -1238,6 +1243,7 @@ body {
   font-family: NT Somic, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
+  text-decoration: none;
 }
 .item--uTq .frame-245-V4P .frame-504-oqm .frame-509-xyZ .frame-192-uto .frame-507-zBV .frame-508-2dy .item--Ezw {
   font-size: 1.6rem;
@@ -1247,6 +1253,7 @@ body {
   font-family: NT Somic, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
+  text-decoration: none;
 }
 .item--uTq .frame-245-V4P .frame-504-oqm .frame-509-xyZ .frame-192-uto .frame-507-zBV .frame-508-2dy .item--wuM {
   font-size: 1.6rem;
@@ -1256,6 +1263,7 @@ body {
   font-family: NT Somic, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
+  text-decoration: none;
 }
 .item--uTq .frame-245-V4P .frame-504-oqm .frame-509-xyZ .frame-502-fqM {
   margin-right: 19.9rem;
@@ -1354,4 +1362,15 @@ body {
   top: 0.225rem;
   object-fit: contain;
   vertical-align: top;
+}
+
+.offcanvas-body a{
+  font-size: 30px;
+  margin-top: 50px;
+}
+.frame-506-W7u a{
+  cursor: pointer;
+}
+.frame-507-zBV a{
+  cursor: pointer;
 }

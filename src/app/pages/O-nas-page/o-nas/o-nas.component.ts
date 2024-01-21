@@ -2,15 +2,15 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  selector: 'app-o-nas',
+  templateUrl: './o-nas.component.html',
+  styleUrl: './o-nas.component.scss'
 })
-export class HomeComponent {
-
+export class ONasComponent {
   constructor(private router: Router) {
 
   }
+
 
   goto_onlayn_kurs() {
     this.router.navigate(['/onlayn-kurs'])
@@ -31,6 +31,7 @@ export class HomeComponent {
   goto_O_Nas(){
     this.router.navigate(['/o-nas'])
   }
+
   goto_Otzivi(){
     this.router.navigate(['/otzivi'])
   }

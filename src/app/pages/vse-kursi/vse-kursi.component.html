@@ -16,7 +16,7 @@
   <div class="auto-group-uebm-PP1">
     <div class="menu-Enw">
       <div class="menu-xiw">
-        <div class="frame-53-gew">
+        <!-- <div class="frame-53-gew">
           <img class="menu-D95" src="/../assets/menu.png"/>
 
           <button class="navbar-toggler rectangle-12-AEX" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -48,13 +48,54 @@
                   <a class="raznica-str main-font nav-link" href="#">Страница платного ролика</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="raznica-str main-font nav-link" href="#">Контакты</a>
-                </li>
-                <li class="nav-item dropdown">
                   <a class="raznica-str main-font nav-link" href="#">О нас</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="otziv nav-link" href="#">Отзывы</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p class="item--Yyy">Меню</p>
+        </div> -->
+        <div class="frame-53-gew">
+          <img class="menu-D95" src="/../assets/menu-rm1.png" />
+
+          <button class="navbar-toggler rectangle-12-AEX" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class=" nav-item">
+                  <a class="main-str main-font nav-link active" aria-current="page" href="#">Главная страница</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" (click) = "goto_vse_kursi()">Все курсы</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" (click) = "goto_ochniy_kurs()">Страница очного курса</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" (click) = "goto_onlayn_kurs()">Страница онлайн курса</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" (click) = "goto_obuch_roliki()">Бесплатные учебные материалы</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" (click) = "goto_str_stati()">Страница статьи</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" (click) = "goto_paid_roliks()">Страница платного ролика</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" (click) = "goto_O_Nas()">О нас</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" (click) = "goto_Otzivi()">Отзывы</a>
                 </li>
               </ul>
             </div>
@@ -172,11 +213,6 @@
         <div class="group-14-LtK">
           <div class="auto-group-ayp3-6sV">
             <input class="frame-45-TT9" placeholder="Имя">
-            <div class="frame-48-KkF">
-              <div class="frame-47-g51">
-              </div>
-              <p class="item--1d5">Согласен(а) на обработку персональных данных</p>
-            </div>
           </div>
           <div class="auto-group-6ghy-G3D">
             <input class="frame-46-1Wb" placeholder="Номер телефона">
@@ -193,18 +229,17 @@
           <div class="frame-505-Fxf">
             <p class="item--DPh">Платные материалы</p>
             <div class="frame-506-W7u">
-              <p class="item--qvs">Онлайн курсы</p>
-              <p class="item--mJj">Очные курсы</p>
-              <p class="item--ssZ">Видео ролики</p>
+              <a (click) = "goto_onlayn_kurs()" class="item--qvs">Онлайн курсы</a>
+              <a (click) = "goto_ochniy_kurs()" class="item--mJj">Очные курсы</a>
+              <a (click) = "goto_obuch_roliki()" class="item--ssZ">Видео ролики</a>
             </div>
           </div>
           <div class="frame-507-zBV">
             <p class="item--YTu">Об учебном центре</p>
             <div class="frame-508-2dy">
-              <p class="item--B15">О нас</p>
-              <p class="item--79d">Отзывы</p>
-              <p class="item--Ezw">Контакты</p>
-              <p class="item--wuM">Бесплатно</p>
+              <a (click) = "goto_O_Nas()" class="item--B15">О нас</a>
+              <a (click) = "goto_Otzivi()" class="item--79d">Отзывы</a>
+              <a (click) = "goto_obuch_roliki()" class="item--wuM">Бесплатно</a>
             </div>
           </div>
         </div>

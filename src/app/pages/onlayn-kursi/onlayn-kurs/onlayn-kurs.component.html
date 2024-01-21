@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Страница онлайн курса</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=NT+Somic%3A400%2C600"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C600"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope%3A600"/>
+  <link rel="stylesheet" href="onlayn-kurs.component.scss"/>
+</head>
+<body>
+<div class="item--1sy">
+  <div class="auto-group-pbnk-Gou">
+    <div class="menu-yTR">
+      <div class="menu-WCT">
+          <div class="frame-53-Sbu">
+            <img class="menu-NVZ" src="/../assets/menu-rm1.png" />
+  
+            <button class="navbar-toggler rectangle-12-5um" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class=" nav-item">
+                    <a class="main-str main-font nav-link active" aria-current="page" href="#">Главная страница</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" (click) = "goto_vse_kursi()">Все курсы</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" (click) = "goto_ochniy_kurs()">Страница очного курса</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" (click) = "goto_onlayn_kurs()">Страница онлайн курса</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" (click) = "goto_obuch_roliki()">Бесплатные учебные материалы</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" (click) = "goto_str_stati()">Страница статьи</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" (click) = "goto_paid_roliks()">Страница платного ролика</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" (click) = "goto_O_Nas()">О нас</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" (click) = "goto_Otzivi()">Отзывы</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="item--aLj">Меню</p>
+          </div>
+        <img class="frame-203-1gw" src="/../assets/frame-203-Cb5.png"/>
+        <div class="frame-244-Vs1">
+          <p class="item-8-800-555-35-35-qfy">8 (800) 555 35 35</p>
+          <a href="#" class="frame-7-ijm">Отправить заявку</a>
+        </div>
+      </div>
+      <div class="item--CQ3">
+        <p class="item--W9q">Главная</p>
+        <img class="right-arrow-nd9" src="/../assets/right-arrow-Tyd.png"/>
+        <p class="item--VnT">Онлайн курсы</p>
+        <img class="right-arrow-aJ7" src="/../assets/right-arrow-VjR.png"/>
+        <p class="item--6GT">Хирургия</p>
+        <img class="right-arrow-mtP" src="/../assets/right-arrow-wQF.png"/>
+        <p class="item--U27">Реставрация и восстановление анатомической формы зубов</p>
+      </div>
+    </div>
+    <div class="auto-group-wivo-4m1">
+      <div class="frame-229-bW3">
+        <img class="vector-1-iaf" src="/../assets/vector-1-2Fd.png"/>
+        <div class="frame-377-qfH">
+          <div class="frame-378-mJ3">
+            <div class="frame-354-gR1">Онлайн курс</div>
+            <div class="auto-group-5u87-MGF">
+              <div class="frame-355-4wM">
+                <div class="frame-295-cT5">
+                  <p class="item--m55">Начало:</p>
+                  <p class="item-20-10-00-gSw">20 августа, в 10:00</p>
+                </div>
+              </div>
+              <div class="frame-295-mjH">
+                <p class="item--843">Уровень:</p>
+                <p class="item--e2P">Средний</p>
+              </div>
+            </div>
+          </div>
+          <div class="frame-379-k5R">
+            <p class="item--Jcj">Реставрация и восстановление анатомической формы зубов</p>
+            <p class="item--usR">Однодневный очный курс с теоретическим разбором и практическим поэтапным восстановлением анатомии зубов </p>
+          </div>
+        </div>
+        <div class="frame-380-RzB">
+            <a href="#" class="frame-7-AB5">Записаться на курс</a>
+          <div class="frame-295-sUo">
+            <p class="item--Cmy">Стоимость:</p>
+            <div class="frame-388-7P9">7 000 ₽</div>
+          </div>
+        </div>
+      </div>
+      <img class="frame-356-Ww5" src="/../assets/frame-356-87d.png"/>
+    </div>
+    <div class="auto-group-rhek-eXV">
+      <div class="frame-404-NTV">
+        <div class="auto-group-zkgt-tAw">
+          <p class="item--1mM">Программа курса</p>
+          <div class="frame-393-ifm">
+            <div class="frame-393-gcb">
+              <p class="item-3--cFM">
+              3 недели
+              <br/>
+              обучения
+              </p>
+            </div>
+            <div class="frame-392-fjR">
+              <p class="item-2--CjM">Новый урок каждые 2 дня</p>
+            </div>
+          </div>
+        </div>
+        <p class="item-32-7--fsq">Мы постоянно дорабатываем курс, чтобы вы получали навыки, которые прямо сейчас нужны работодателям. Вас ждут 32 актуальные темы и 7 практические работ с реальными пациентами.</p>
+        <div class="frame-399-HXq">
+          <div class="item--R8F">
+            <div class="frame-394-xP5">
+              <div class="frame-396-WfV">
+                <p class="item-1-FNB">1</p>
+                <p class="item--m5d">Эндодонтическое лечение</p>
+              </div>
+              <img class="frame-395-eQK" src="/../assets/frame-395-9B1.png"/>
+            </div>
+          </div>
+          <div class="item--ky9">
+            <div class="frame-394-JUs">
+              <div class="frame-396-T6s">
+                <p class="item-1-new">2</p>
+                <p class="item--hX1">Художественная реставрация</p>
+              </div>
+              <img class="frame-395-Pej" src="/../assets/frame-395-4Fd.png"/>
+            </div>
+          </div>
+          <div class="item--WjM">
+            <div class="frame-394-4F5">
+              <div class="frame-396-pEF">
+                <p class="item-1-YR9">3</p>
+                <p class="item--48b">Гигиена полости рта</p>
+              </div>
+              <img class="frame-395-k1R" src="/../assets/frame-395-atb.png"/>
+            </div>
+          </div>
+          <div class="item--4no">
+            <div class="frame-394-Cu1">
+              <div class="frame-396-Aaw">
+                <p class="item-1-W91">4</p>
+                <p class="item--dUX">Методики изоляции при помощи системы коффердам</p>
+              </div>
+              <img class="frame-395-8AP" src="/../assets/frame-395-CwM.png"/>
+            </div>
+          </div>
+          <div class="item--TCf">
+            <div class="frame-394-bJs">
+              <div class="frame-396-x9R">
+                <p class="item-1-gr7">5</p>
+                <p class="item--Qn7">Методики обезболивания</p>
+              </div>
+              <img class="frame-395-hWK" src="/../assets/frame-395-vwd.png"/>
+            </div>
+          </div>
+          <div class="item--d95">
+            <div class="frame-394-N6f">
+              <div class="frame-396-XET">
+                <p class="item-1-TP1">6</p>
+                <p class="item--nRH">Удаление зубов</p>
+              </div>
+              <img class="frame-395-5QP" src="/../assets/frame-395-ydM.png"/>
+            </div>
+          </div>
+          <div class="item--CE7">
+            <div class="frame-394-8tT">
+              <div class="frame-396-hAs">
+                <p class="item-1-dKR">7</p>
+                <p class="item--Xfh">Диагностика, составление плана лечения</p>
+              </div>
+              <img class="frame-395-pPu" src="/../assets/frame-395-1Uo.png"/>
+            </div>
+          </div>
+          <div class="item--L7M">
+            <div class="frame-394-sNB">
+              <div class="frame-396-ECj">
+                <p class="item-1-mTZ">8</p>
+                <p class="item--JCb">Работа с КТ снимками</p>
+              </div>
+              <img class="frame-395-o9M" src="/../assets/frame-395-tDR.png"/>
+            </div>
+          </div>
+          <div class="item--VXy">
+            <div class="frame-400-deB">
+              <div class="frame-394-yxw">
+                <div class="frame-396-XUf">
+                  <p class="item-9-r19">9</p>
+                  <p class="item--xps">Первичное ведение ортопедических пациентов</p>
+                </div>
+                <img class="frame-395-1o9" src="/../assets/frame-395-mTy.png"/>
+              </div>
+              <p class="item--9eT">Научитесь снимать оттиски, правильно препарировать и изготавливать временные коронки  </p>
+            </div>
+          </div>
+          <div class="item--HeB">
+            <div class="frame-394-37Z">
+              <div class="frame-396-BzT">
+                <p class="item-1-vSF">10</p>
+                <p class="item--42f">Итоговое тестирование в конце месяца</p>
+              </div>
+              <img class="frame-395-Lks" src="/../assets/frame-395-kvF.png"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="auto-group-5jru-1s1">
+        <div class="frame-288-m5V">
+          <div class="frame-364-sPR">
+            <p class="item--cro">Навигация</p>
+            <div class="frame-370-KWK">
+              <div class="frame-365-fKH">Содержание курса</div>
+              <div class="frame-367-Yts">Преимущества</div>
+              <div class="frame-368-rPm">Для кого подойдет курс</div>
+              <div class="frame-369-MrK">Ваши будущие работы</div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-331-eKd">
+          <div class="frame-364-PHD">
+            <div class="frame-371-vH9">
+              <p class="item--eiw">Стоимость:</p>
+              <p class="item-7-000--AhH">7 000 ₽</p>
+            </div>
+            <div class="frame-372-VUf">
+              <p class="item--41y">Осталось мест:</p>
+              <p class="item-1--ZDd">1 место</p>
+            </div>
+          </div>
+          <div class="frame-373-5xf">Записаться</div>
+        </div>
+      </div>
+    </div>
+    <div class="frame-403-Zcw">
+      <div class="frame-452-6cs">
+        <div class="frame-463-Swd">
+          <p class="item--anw">Учитесь из любой точки мира</p>
+          <img class="d-rendering-planet-earth-299" src="/../assets/d-rendering-planet-earth.png"/>
+          <a class="frame-7-Ktw">Отправить заявку</a>
+        </div>
+        <p class="item--9NB">Развивайте профессиональные навыки в онлайн-формате</p>
+      </div>
+      <div class="frame-359-wJ3">
+        <p class="item--fzj">Преимущества</p>
+        <div class="frame-351-xyq">
+          <div class="frame-350-7rj">
+            <div class="frame-341-Se7">
+              <p class="item--B5u">Перспективы карьерного роста</p>
+              <div class="growth-1-1aj">
+              </div>
+              <p class="item--vSo">Повысите свою ценность на рынке труда</p>
+            </div>
+            <div class="frame-339-9KZ">
+              <p class="item--h6B">Обучение на практике</p>
+              <p class="item--wWK">Повысите свою ценность на рынке труда</p>
+              <img class="cap-1-NrX" src="/../assets/cap-1-pbM.png"/>
+            </div>
+          </div>
+          <div class="frame-344-61q">
+            <p class="item--Caf">Подтверждение ваших навыков</p>
+            <p class="item--475">Вы получите сертификат установленного образца, который станет дополнительным аргументом для работодателя</p>
+            <div class="frame-343-ZT9">
+              <div class="frame-346-RET">
+                <img class="frame-203-ASw" src="/../assets/frame-203-XjZ.png"/>
+                <p class="grace-fuV">
+                  <span class="grace-fuV-sub-0">Учебный стоматологический центр</span>
+                  <span class="grace-fuV-sub-1"> «Grac</span>
+                  <span class="grace-fuV-sub-2">e»</span>
+                </p>
+              </div>
+              <p class="item--N59">СЕРТИФИКАТ</p>
+              <p class="item--e2f">подтверждает, что</p>
+              <p class="item--i2X">Имя Фамилия</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-348-7KZ">
+        <p class="item--Fgf">Для кого подойдет курс</p>
+        <div class="frame-405-8VZ">
+          <div class="frame-17-V5D">
+            <p class="item--CkK">Интерны / Ординаторы</p>
+            <div class="leonardodiffusionyoungdentistwhitebackgroundcaucasianse1-1-1-4nX">
+            </div>
+          </div>
+          <div class="frame-19-gZ1">
+            <p class="item--EaX">Практикующие стоматологи</p>
+            <div class="leonardodiffusionyoungdentistwhitebackgroundcaucasianse1-1-1-HHu">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-451-s1D">
+        <div class="frame-407-Das">
+          <p class="item--KP1">Ваши будущие работы</p>
+          <div class="frame-221-bbR">
+            <img class="frame-222-vNo" src="/../assets/frame-222-yK1.png"/>
+            <div class="frame-224-2wd">
+              <p class="item-1-aiF">1</p>
+              <div class="line-1-sST">
+              </div>
+              <p class="item-5-bdM">5</p>
+            </div>
+            <img class="frame-223-7Lo" src="/../assets/frame-223-RCF.png"/>
+          </div>
+        </div>
+        <div class="frame-450-D8w">
+          <img class="frame-26-xMR" src="/../assets/frame-26-c9y.png"/>
+          <div class="frame-24-HPh">
+          </div>
+          <div class="auto-group-madh-PxX">
+            <img class="frame-27-vBm" src="/../assets/frame-27-yqd.png"/>
+            <div class="frame-28-TBh">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-229-B7h">
+        <p class="item--h63">Успейте записаться, количество мест ограничено</p>
+        <div class="frame-515-7Qf">
+          <p class="item--SSw">Осталось мест:</p>
+          <p class="item-2-w8o">2</p>
+        </div>
+        <div class="frame-44-GB5">
+          <div class="group-14-bUF">
+            <div class="auto-group-8kfv-A1Z">
+              <input class="frame-45-WLK" placeholder="Имя">
+            </div>
+            <div class="auto-group-p8af-J9h">
+              <input class="frame-46-37H" placeholder="Номер телефона*">
+              <a href="#" class="frame-7-HnK">Отправить заявку</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="frame-245-HA3">
+    <div class="frame-504-o8P">
+      <div class="frame-509-x1H">
+        <div class="frame-192-EjV">
+          <div class="frame-505-N51">
+            <p class="item--JUT">Платные материалы</p>
+            <div class="frame-506-B2T">
+              <a (click) = "goto_onlayn_kurs()" class="item--K8f">Онлайн курсы</a>
+              <a (click) = "goto_ochniy_kurs()" class="item--RSb">Очные курсы</a>
+              <a (click) = "goto_obuch_roliki()" class="item--8M1">Видео ролики</a>
+            </div>
+          </div>
+          <div class="frame-507-S6o">
+            <p class="item--PGw">Об учебном центре</p>
+            <div class="frame-508-Tnb">
+              <a (click) = "goto_O_Nas()" class="item--nps">О нас</a>
+              <a (click) = "goto_Otzivi()" class="item--K47">Отзывы</a>
+              <a (click) = "goto_obuch_roliki()" class="item--AKd">Бесплатно</a>
+            </div>
+          </div>
+        </div>
+        <div class="frame-502-G7m">
+          <img class="frame-182-oNb" src="/../assets/frame-182-Jq9.png"/>
+          <p class="grace-2023-K63">© Образовательный центр «Grace», 2023</p>
+        </div>
+      </div>
+      <div class="frame-503-1jZ">
+        <div class="frame-510-ZWB">
+          <p class="item--hsH">Номер телефона для справок:</p>
+          <p class="item-8-800-555-35-35-aw5">8 (800) 555 35 35</p>
+        </div>
+        <div class="frame-509-sfH">
+          <div class="frame-321-yTR">
+            <p class="item--LHy">Сделано в</p>
+            <img class="logo-2Ao" src="/../assets/logo-GjV.png"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
