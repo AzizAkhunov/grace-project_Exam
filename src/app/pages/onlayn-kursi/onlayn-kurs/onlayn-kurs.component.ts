@@ -1,15 +1,50 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-
+import {FormGroup, FormBuilder, Validator, Validators } from '@angular/forms';
+import { FormControl } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
+import { ApiServiceService } from '../../../Services/api-service.service';
 @Component({
   selector: 'app-onlayn-kurs',
   templateUrl: './onlayn-kurs.component.html',
   styleUrl: './onlayn-kurs.component.scss'
 })
 export class OnlaynKursComponent {
-  constructor(private router: Router) {
+  constructor(private api:ApiServiceService,private formBuilder : FormBuilder,private router: Router) {
 
   }
+
+  ngOnInit(): void {
+    this.usersForm = this.formBuilder.group({
+      Name :["" , Validators.required],
+      PhoneNumber : ["" , Validators.required]
+    })
+  }
+
+  usersForm !: FormGroup
+  
+  post(){
+    console.log(this.usersForm.value)
+    this.api.postUser(this.usersForm.value)
+    .subscribe({
+      next:()=>{
+        alert("Success")
+          this.usersForm.reset()
+        },
+        error:() =>{
+        alert("Error")
+      }
+      })
+  }
+
+
+
+
+
+
+
+
 
   goto_onlayn_kurs() {
     this.router.navigate(['/onlayn-kurs'])

@@ -1,20 +1,4 @@
-<!-- Main -->
-<!DOCTYPE html>
-<html>
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <title>Главная страница</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C600%2C700" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope%3A600" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=NT+Somic%3A400%2C600%2C700" />
-  <link rel="stylesheet" href="home.component.scss">
-</head>
-
-<body>
   <div class="item--EJw">
     <div class="auto-group-ozuu-uAB">
       <div class="menu-PLF">
@@ -415,22 +399,24 @@
       </div>
     </div>
     </div> -->
-
-      <div class="frame-229-jkw">
-        <img class="vector-1-4YK" src="/../assets/vector-1-8hq.png" />
-        <p class="item--P4o">Остались вопросы?</p>
+    
+    <div class="frame-229-jkw">
+      <img class="vector-1-4YK" src="/../assets/vector-1-8hq.png" />
+      <p class="item--P4o">Остались вопросы?</p>
         <p class="item--dUw">Оставьте заявку и мы свяжемся с вами</p>
         <p class="item--FmD">Оставьте заявку и мы свяжемся с вами</p>
         <div class="frame-44-t3V">
-          <div class="group-14-PF9">
-            <div class="auto-group-8ecb-wXZ">
-              <input type="text" class="frame-45-5Ns" placeholder="Имя">
+          <form [formGroup]="usersForm">
+            <div class="group-14-PF9">
+              <div class="auto-group-8ecb-wXZ">
+                <input type="text" class="frame-45-5Ns" placeholder="Имя" formControlName="Name">
+              </div>
+              <div class="auto-group-q28t-eio">
+                <input type="text" class="frame-46-bP9" placeholder="Номер телефона*" formControlName="PhoneNumber">
+                <button class="frame-7-qHV" (click)="post()">Отправить заявку</button>
+              </div>
             </div>
-            <div class="auto-group-q28t-eio">
-              <input type="text" class="frame-46-bP9" placeholder="Номер телефона*">
-              <a class="frame-7-qHV">Отправить заявку</a>
-            </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
@@ -475,4 +461,3 @@
       </div>
     </div>
   </div>
-</body>

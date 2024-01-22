@@ -342,7 +342,7 @@
           <p class="item-2-w8o">2</p>
         </div>
         <div class="frame-44-GB5">
-          <div class="group-14-bUF">
+          <!-- <div class="group-14-bUF">
             <div class="auto-group-8kfv-A1Z">
               <input class="frame-45-WLK" placeholder="Имя">
             </div>
@@ -350,7 +350,18 @@
               <input class="frame-46-37H" placeholder="Номер телефона*">
               <a href="#" class="frame-7-HnK">Отправить заявку</a>
             </div>
-          </div>
+          </div> -->
+          <form [formGroup]="usersForm">
+            <div class="group-14-bUF">
+              <div class="auto-group-8kfv-A1Z">
+                <input type="text" class="frame-45-WLK" placeholder="Имя" formControlName="Name">
+              </div>
+              <div class="auto-group-p8af-J9h">
+                <input type="text" class="frame-46-37H" placeholder="Номер телефона*" formControlName="PhoneNumber">
+                <button class="frame-7-HnK" (click)="post()">Отправить заявку</button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>

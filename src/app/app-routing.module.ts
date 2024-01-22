@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: 'otzivi', component: OtziviComponent },
   { path: 'o-nas', component: ONasComponent },
   { path: 'home', component: HomeComponent },
-  { path: '', component: HomeComponent },
+  { path: '', redirectTo:'home',pathMatch:'full' },
   { path: '**', component: NotfoundComponent }
 ];
 

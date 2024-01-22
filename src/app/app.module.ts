@@ -13,7 +13,8 @@ import { NotfoundComponent } from './pages/notfound-page/notfound/notfound.compo
 import { ONasComponent } from './pages/O-nas-page/o-nas/o-nas.component';
 import { OtziviComponent } from './pages/Otzivi/otzivi/otzivi.component';
 import { StrStatiComponent } from './pages/str-stati-page/str-stati/str-stati.component';
-import { LogInComponent } from './pages/Log-in/log-in/log-in.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,11 +29,15 @@ import { LogInComponent } from './pages/Log-in/log-in/log-in.component';
     ONasComponent,
     OtziviComponent,
     StrStatiComponent,
-    LogInComponent
+
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
