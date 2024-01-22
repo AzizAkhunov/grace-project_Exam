@@ -13,6 +13,7 @@ import { NotfoundComponent } from './pages/notfound-page/notfound/notfound.compo
 import { ONasComponent } from './pages/O-nas-page/o-nas/o-nas.component';
 import { OtziviComponent } from './pages/Otzivi/otzivi/otzivi.component';
 import { StrStatiComponent } from './pages/str-stati-page/str-stati/str-stati.component';
+import { LogInComponent } from './pages/Log-in/log-in/log-in.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { StrStatiComponent } from './pages/str-stati-page/str-stati/str-stati.co
     NotfoundComponent,
     ONasComponent,
     OtziviComponent,
-    StrStatiComponent
+    StrStatiComponent,
+    LogInComponent
   ],
   imports: [
     BrowserModule,
